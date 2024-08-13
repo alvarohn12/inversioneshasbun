@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --colorprimario: #ff0000;
+    /* color principal/ encabezados/ botones */
+    /*  --colorprimario500:#ff2323; 
+
+    --primaricolor300:#ff9494;
+    --othoscolor200:#ffc0c0;
+    --primari100:#ffdddd;
+    --colorprimari50:#fff0f0;
+*/
+    --colorprecio: #0f5ca5;
+    --colorprimario400: #ff5757;
+    --colorsecundario: #FFFFFF;
+    /* fondo,textos sobre fondos oscuros---*/
+    --colorteciario: #333333;
+    /* Texto secundario, fondos de secciones  */
+    --colorfondo: #F5F5F7;
+    --colorcuarternario: #E0E0E0;
+    /* Fondos secundarios, bordes */
+    --llamadaaccion: #FF9800;
+    /* Botones, llamadas a la acción */
+    --coloropcinal: #FF4081;
+    /* Enlaces, acentos, elementos destacados */
+    --colorquinto: #4CAF50;
+    /* 	Botones de confirmación, acentos, éxito */
+    --coloraltenativo: #000;
+    /* textos principales ,elementos graficos */
+    --colorboxshadow: #A4A3A5;
+    --boxshadowcolor: rgba(0, 0, 0, 0.829);
+    --coloraltena: rgba(0, 0, 0, 0.6);
+    --fuenteprincipal: "Roboto Slab", serif;
+    --fuentesecundario: "Merriweather", serif;
+    --fuentetercera: "Libre Baskerville", serif;
+    --fuenteletras: "Merriweather", serif;
+    --fuentelato: "Lato", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* fin de variables generales */
+/* estilos generales */
+body {
+    background-color: var(--colorfondo);
+    font-size: 18px;
+    /*     margin: 0 auto;
+    max-width: 1680px; */
+}
+.product-details-container {
+    display: flex;
+    gap: 20px;
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-viewer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-image-container {
+    border: 1px solid #d9d9d9;
+    position: relative;
+    width: 600px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.thumbnails {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnails img:hover {
+    border-color: #007bff;
+}
+
+.product-info {
+    max-width: 500px;
+}
+
+.slider-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.slider-modal.active {
+    display: flex;
+}
+
+.slider-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.swiper {
+    width: 80%;
+    height: 80%;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* favoritos */
+.favorites-container{
+    flex-wrap: wrap;
+    background-color: var(--colorsecundario);
+    display: flex;
+    width: 95%;
+    max-width: 1500px;
+    margin: 5px auto;
+}
+.imagen_favorita{
+    width: 90%;
+}
+.remove-from-favorites{
+    margin: 5px 0;
+    display: flex;
+    border: none;
+    background-color: var(--colorprimario);
+    cursor: pointer;
+    color: var(--colorsecundario);
+    font-size: 1.5rem;
+    padding: 10px;
+    justify-content: end;
+}
+.clear-cart{
+    padding: 10px;
+    background-color: var(--colorprimario);
+    cursor: pointer;
+    border: none;
+}
+.pago{
+    background-color: #6DBCDB;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-container{
+    background-color: var(--colorsecundario);
+}
+
+/* boton eliminar */
+.remove-from-cart{
+    background-color: var(--colorprimario);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+    color: var(--colorsecundario);
+
+}
+.inferior{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6DBCDB;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 10px;
+}
+.cardd{
+    padding: 3px;
+}
+.update-quantity{
+    padding: 5px;
+    border: none;
+
+}
+#caracteristicas-list li{
+    list-style: none;
+    padding: 7px;
+    color: var(--colorteciario);
+    text-transform: capitalize;
+}
+.buy-now{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+}
+@media (max-width:768px){
+    .product-details-container {
+        display: block;
+    }
+    .thumbnails {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+    }
+}

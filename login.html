@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/logo_hasbun.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://unpkg.com/scrollreveal"></script>
+    <title>Iniciar Sesión</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .form-group {
+            position: relative;
+            margin-bottom: 25px;
+        }
+        .form-group label {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #555;
+            background: white;
+            padding: 0 5px;
+            transition: all 0.3s;
+            pointer-events: none;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: border-color 0.3s;
+        }
+        .form-group input:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .form-group input:focus + label,
+        .form-group input:not(:placeholder-shown) + label {
+            top: -10px;
+            left: 10px;
+            font-size: 12px;
+            color: #007bff;
+        }
+        .form-group .toggle-password {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            color: #007bff;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        .toggle-link {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .toggle-link:hover {
+            color: #0056b3;
+        }
+        .error {
+            color: red;
+            font-size: 0.9em;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Iniciar Sesión</h2>
+    <div class="form-group">
+        <input type="email" id="login__email" name="email" placeholder=" " required>
+        <label for="login__email">Correo Electrónico</label>
+        <div class="error" id="login__email--error"></div>
+    </div>
+    <div class="form-group">
+        <input type="password" id="login__password" name="password" placeholder=" " required>
+        <label for="login__password">Contraseña</label>
+        <span class="toggle-password" onclick="togglePassword('login__password')">👁️</span>
+        <div class="error" id="login__password--error"></div>
+    </div>
+    <div class="form-group">
+        <button type="button" onclick="validateLogin()">Iniciar Sesión</button>
+    </div>
+    <a href="registro.html" class="toggle-link">¿No tienes una cuenta? Regístrate</a>
+</div>
+
+<script>
+    function togglePassword(id) {
+        const input = document.getElementById(id);
+        if (input.type === 'password') {
+            input.type = 'text';
+        } else {
+            input.type = 'password';
+        }
+    }
+
+    function validateEmail(email) {
+        const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return re.test(String(email).toLowerCase());
+    }
+
+    function validateLogin() {
+        let isValid = true;
+
+        const email = document.getElementById('login__email');
+        const password = document.getElementById('login__password');
+
+        if (email.value === '') {
+            document.getElementById('login__email--error').innerText = 'Este campo es obligatorio.';
+            isValid = false;
+        } else if (!validateEmail(email.value)) {
+            document.getElementById('login__email--error').innerText = 'Correo electrónico no válido.';
+            isValid = false;
+        } else {
+            document.getElementById('login__email--error').innerText = '';
+        }
+
+        if (password.value === '') {
+            document.getElementById('login__password--error').innerText = 'Este campo es obligatorio.';
+            isValid = false;
+        } else {
+            document.getElementById('login__password--error').innerText = '';
+        }
+
+        if (isValid) {
+            // Simulación de inicio de sesión exitoso
+            alert('Inicio de sesión correcto');
+            // Aquí podrías redireccionar a otra página o realizar otras acciones después del inicio de sesión
+        }
+    }
+</script>
+
+</body>
+</html>

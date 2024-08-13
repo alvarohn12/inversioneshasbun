@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Cuenta</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>/* styles.css */
+
+        .user-icon {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        
+        .user-icon.large {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+        
+        /* Ajustar tamaño del ícono si es demasiado grande */
+        #user-icon-upload {
+            display: none;
+        }
+        
+        input[type="file"] {
+            display: block;
+            margin-top: 10px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="user-menu">
+            <img id="user-icon" src="img/logo_hasbun.png" alt="Usuario" class="user-icon" title="usuario">
+            <div class="user-options" id="user-options">
+                <a href="login.html" id="login-link" style="display: none;">Iniciar Sesión</a>
+                <a href="registro.html" id="register-link" style="display: none;">Registrarse</a>
+                <a href="account.html" id="account-link">Mi Cuenta</a>
+                <a href="#" id="logout-link">Cerrar Sesión</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="account-container">
+        <h1>Mi Cuenta</h1>
+        <form id="account-form">
+            <fieldset>
+                <div class="input-group">
+                    <label for="account-name">Nombre:</label>
+                    <input type="text" id="account-name" name="account-name" placeholder="Tu nombre" required>
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input-group">
+                    <label for="account-email">Correo Electrónico:</label>
+                    <input type="email" id="account-email" name="account-email" placeholder="correoelectronico@gmail.com" required>
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+                <div class="input-group">
+                    <label for="account-password">Nueva Contraseña:</label>
+                    <input type="password" id="account-password" name="account-password" placeholder="Nueva contraseña">
+                    <i class="fa fa-lock icon"></i>
+                    <span class="password-toggle" id="account-password-toggle" title="Mostrar/Ocultar Contraseña">
+                        <i class="fa fa-eye" id="account-eye-icon"></i>
+                    </span>
+                </div>
+                <div class="input-group">
+                    <label for="account-profile-picture">Ícono de Usuario:</label>
+                    <input type="file" id="account-profile-picture" name="account-profile-picture" accept="image/*">
+                </div>
+                <button type="submit">Guardar Cambios</button>
+                <div id="account-feedback" class="feedback"></div>
+            </fieldset>
+        </form>
+    </main>
+    <div id="header-container"></div>
+    <div id="footer-container"></div>
+    <script src="js/heyfo.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

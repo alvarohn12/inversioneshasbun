@@ -1,0 +1,989 @@
+[
+    {
+        "id": 1,
+        "name": "Office Laptop",
+        "images": [
+            "../img/laptop1.avif",
+            "../img/laptop2.avif",
+            "../img/laptop1.avif"
+        ],
+        "image": "../img/laptop1.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "laptop",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Gaming Laptop",
+        "images": [
+            "../img/laptop1.avif",
+            "../img/laptop2.avif",
+            "../img/laptop1.avif"
+        ],
+        "image": "../img/laptop1.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "laptop",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Gaming Laptop",
+        "images": [
+            "../img/laptop1.avif",
+            "../img/laptop2.avif",
+            "../img/laptop1.avif"
+        ],
+        "image": "../img/laptop1.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "laptop",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Desktop Computer",
+        "images": [
+            "../img/laptop1.avif",
+            "../img/laptop2.avif",
+            "../img/laptop1.avif"
+        ],
+        "image": "../img/laptop1.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "laptop",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Gaming Desktop",
+        "image": "../img/laptop2.avif",
+        "description": "High performance gaming desktop.",
+        "price": 1499,
+        "rating": 4.9,
+        "category": "laptop",
+        "url":"laptops.html"
+    },
+    {
+        "id": 5,
+        "name": "Computer Desktop",
+        "image": "../img/laptop1.avif",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "laptop",
+        "url":"laptops.html"
+    },
+    {
+        "id": 6,
+        "name": "Computer Desktop",
+        "image": "../img/laptop1.avif",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "laptop",
+        "url":"laptops.html"
+    },
+    {
+        "id": 2,
+        "name": "laptop portatil",
+        "image": "../img/laptop2.avif",
+        "description": "Brief description of the product. This is an example text that can span multiple lines.",
+        "price": 1199,
+        "rating": 4.8,
+        "category": "laptop",
+        "url":"laptops.html"
+    },
+    {
+        "id": 7,
+        "name": "Computer Desktop",
+        "image": "../img/computadora.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 8,
+        "name": "Computer Desktop",
+        "image": "../img/computadora.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 9,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 10,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 11,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 12,
+        "name": "Computer Desktop",
+        "image": "../img/computadora.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 13,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 14,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 15,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 16,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 17,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 18,
+        "name": "Computer Desktop",
+        "image": "../img/computadora.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 19,
+        "name": "Computer Desktop",
+        "image": "../img/computadora.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "computadora"
+    },
+    {
+        "id": 20,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 21,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 22,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 23,
+        "name": "Computer Desktop",
+        "image": "../img/computadora.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 24,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 25,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 26,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 27,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 28,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "monitores"
+    },
+    {
+        "id": 29,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 30,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 31,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 32,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 32,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 32,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 32,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 32,
+        "name": "Computer Desktop",
+        "image": "../img/computadora2.png",
+        "description": "Brief description of the desktop computer.",
+        "price": 799,
+        "rating": 4.5,
+        "category": "accesorio"
+    },
+    {
+        "id": 33,
+        "name": "impresora",
+        "images": [
+            "../img/impresora.avif",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/impresora.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "impresora",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "impresora",
+        "images": [
+            "../img/impresora.avif",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/impresora.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "impresora",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "impresora",
+        "images": [
+            "../img/impresora.avif",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/impresora.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "impresora",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "impresora",
+        "images": [
+            "../img/impresora.avif",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/impresora.avif",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "impresora",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "camaras",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/camara.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "camara",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "grabadoras dvrs",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/grabadora.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "grabadoras",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "grabadoras dvrs",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/grabadora.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "grabadoras",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "grabadoras dvrs",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/grabadora.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "grabadoras",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "grabadoras dvrs",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/grabadora.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "grabadoras",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "grabadoras dvrs",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/grabadora.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "grabadoras",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "grabadoras dvrs",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/grabadora.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "grabadoras",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "discos de almacenamiento",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/discos.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "discos",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "discos de almacenamiento",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/discos.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "discos",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "discos de almacenamiento",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/discos.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "discos",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "discos de almacenamiento",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/discos.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "discos",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "discos de almacenamiento",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/discos.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "discos",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "discos de almacenamiento",
+        "images": [
+            "../img/camara.jpg",
+            "../img/impresora2.png",
+            "../img/impresora.avif"
+        ],
+        "image": "../img/discos.jpg",
+        "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
+        "price": 999,
+        "priceNew": 899,
+        "rating": 4.8,
+        "category": "discos",
+        "url":"laptops.html",
+        "caracteristicas":[
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto",
+            "uno de sus caracteristicas del producto"
+        ]
+    }
+
+
+]

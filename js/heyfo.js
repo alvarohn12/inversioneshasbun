@@ -1,0 +1,303 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+    const headerHTML = `
+            <h2 class="encabezado-p">"Las Mejores Marcas y Modelos al Mejor Precio", "Soporte Técnico 24/7", y "Garantía de Satisfacción"</h2>
+        <header>
+            <div class="header-view">
+                <div class="baner-logo">
+                    <figure>
+                        <a href="index.html" class="n-empresa"><img class="logo-hasbun" src="img/logo_hasbun.png" alt="logo hasbun">inversiones hasbun</a>
+                    </figure>
+                    <div class="menu__hamburguer">
+                        <img src="icon/menu.svg" class="menu__img" alt="icono hamburguesa">
+                    </div>
+                    <div class="close_hamburguesa">
+                        <i class="fa-solid fa-xmark" style="color: #5f6368;"></i>
+                    </div>
+                </div>
+                <div class="search-container">
+                    <form action="data/data.json" class="nav-search" method="get" role="search" style="display: inherit;">
+                        <input type="text" class="search-input" id="buscador" name="buscador" placeholder="Busque su producto deseado">
+                        <button type="submit" class="search-button">
+                            <div class=""><i class="fa-solid fa-magnifying-glass"></i></div>
+                        </button>
+                    </form>
+                    <div id="sugerencias" class="sugerencias">
+                        <!-- Las sugerencias aparecerán aquí -->
+                    </div>
+                </div>
+                <div class="nav-de-info">
+                    <button class="catalogo">descargar su catalogo</button>
+                    <div class="user-menu">
+                        <img id="user-icon" src="img/logo_hasbun.png" alt="Usuario" class="user-icon" title="usuario">
+                        <div class="user-options" id="user-options">
+                            <a href="login.html" id="login-link">Iniciar Sesión</a>
+                            <a href="registro.html" id="register-link">Registrarse</a>
+                            <a href="account.html" id="account-link" style="display: none;">Mi Cuenta</a>
+                            <a href="#" id="logout-link" style="display: none;">Cerrar Sesión</a>
+                        </div>
+                    </div>
+                    <button class="cresponsive" title="catalogo"><i class='bx bx-download'></i></button>
+                    <a href="cursos.html" class="link-course" title="cursos"><img src="img/pureq-removebg-preview.png"
+                            alt="cursos"></a>
+                            <a href="favoritos.html" class="favo-nav cart-icon" title="favoritos"><i class='bx bx-heart'></i>
+                                <span id="favorites-count">0</span>
+                            </a>
+                            <a href="miscompras.html" class="cart-n cart-icon" title="mis compras">
+                                <i class='bx bx-cart-alt'></i>
+                                <span class="cart-count" id="cart-count">0</span>
+                            </a>
+                </div>
+
+            </div>
+            <nav class="nav-links">
+                <ul class="menu__links">
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Catalogo <img src="icon/arrow.svg" class="menu__arrow"
+                                alt="arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="laptops.html" class="menu__link menu__link--inside"><span class="es"><i
+                                            class="fa-solid fa-laptop"></i></span>laptops</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="computadoras.html" class="menu__link menu__link--inside"><span class="es"><i
+                                            class="fa-solid fa-computer"></i></span>computadoras</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="monitores.html" class="menu__link menu__link--inside"><span class="es"><i
+                                            class="fa-solid fa-desktop"></i></span>monitores</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="impresoras.html" class="menu__link menu__link--inside"><span class="es"><i
+                                            class="fa-solid fa-print"></i></span>impresoras</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="accesorios.html" class="menu__link menu__link--inside"><span class="es"><i
+                                            class="fa-solid fa-keyboard"></i></span>accesorios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">zona gamer <img src="icon/arrow.svg" class="menu__arrow"
+                                alt="arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="glaptop.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-laptop-code es"></i>laptop</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="pc.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-computer es"></i>pc</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="gaccesorios.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-headphones es"></i>accesorios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">servicios<img src="icon/arrow.svg" class="menu__arrow"
+                                alt="arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="lap_soporte.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-laptop es"></i>soporte de laptops</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="comp_soporte.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-computer es"></i>soprote de computadoras</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="imp_soporte.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-print es"></i>soporte de impresoras</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="video_soporte.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-video es"></i>soporte de video vigilancia</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="estado_servicio.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-truck es"></i>consulta el estado de tu servicio</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="tips.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-book es"></i>tips y manuales</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">sistemas de video vigilancia<img src="icon/arrow.svg"
+                                class="menu__arrow" alt="arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="camaras.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-camera es"></i>camaras</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="grabadoras.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-video es"></i>dvrs o grabadoras</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="discosd.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-hdd es"></i>discos
+                                    duros almacenamiento</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="vconfiguracion.html" class="menu__link menu__link--inside">
+                                <i class="fas fa-cog es"></i>configuraciones</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="vinstalaciones.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-download es"></i>instalaciones</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">redes<img src="icon/arrow.svg" class="menu__arrow"
+                                alt="arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="servi-internet.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-wifi es"></i>servicios de internet</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="conexiones.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-ethernet es"></i>conectividad o conexiones</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="redes-confi.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-cog es"></i>configuraciones</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="Guia.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-download es"></i>instalaciones</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link"><i class="fab fa-html5 ma"></i>desarrollo de sistemas<img
+                                src="icon/arrow.svg" class="menu__arrow" alt="arrow"></a>
+
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="paginaweb.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-globe es"></i>paginas web</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="ecommerce.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-store es"></i>tiendas virtuales</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="blog.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-file-code es"></i>blogs</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="sistemasmedida.html" class="menu__link menu__link--inside"><i
+                                        class="fas fa-weight-hanging es"></i>sistemas a tu medida</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="aplicacion.html" class="menu__link menu__link--inside"><i
+                                        class="fab fa-android es"></i>aplicativos</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>`;
+
+    // Inserta el contenido del header en el contenedor
+    document.getElementById('header-container').innerHTML = headerHTML;
+    (function(){
+        const listElements = document.querySelectorAll('.menu__item--show');
+        const list = document.querySelector('.menu__links');
+        const menu = document.querySelector('.menu__hamburguer');
+        const close = document.querySelector('.close_hamburguesa');
+    
+        const addClick = ()=>{
+            listElements.forEach(element =>{
+                element.addEventListener('click', ()=>{
+    
+                    
+                    let subMenu = element.children[1];
+                    let height = 0;
+                    element.classList.toggle('menu__item--active');
+    
+    
+                    if(subMenu.clientHeight === 0){
+                        height = subMenu.scrollHeight;
+                    }
+    
+                    subMenu.style.height = `${height}px`;
+    
+                });
+            });
+        }
+    
+        const deleteStyleHeight = ()=>{
+            listElements.forEach(element=>{
+    
+                if(element.children[1].getAttribute('style')){
+                    element.children[1].removeAttribute('style');
+                    element.classList.remove('menu__item--active');
+                }
+    
+            });
+        }
+    
+    
+        window.addEventListener('resize', ()=>{
+            if(window.innerWidth > 800){
+                deleteStyleHeight();
+                if(list.classList.contains('menu__links--show'))
+                    list.classList.remove('menu__links--show');
+    
+            }else{
+                addClick();
+            }
+        });
+    
+        if(window.innerWidth <= 800){
+            addClick();
+        }
+    
+        menu.addEventListener('click', ()=>{
+            list.classList.toggle('menu__links--show')
+            menu.style.display = 'none'
+            close.style.display = 'inline'
+        });
+    
+        close.addEventListener('click', ()=> {
+            list.classList.toggle('menu__links--show')
+            close.style.display = 'none'
+            menu.style.display = 'inline'
+        });
+    
+    
+    
+    })();
+    document.addEventListener('DOMContentLoaded', () => {
+        const links = document.querySelectorAll('a[href="#"]');
+    
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+            });
+        });
+    });
+});
+
+    fetch('foder.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+        });
+                                    /* <li class="menu__inside">
+                                <a href="armapc.html" class="menu__link menu__link--inside"><i
+                                        class="fa-solid fa-puzzle-piece es"></i>arma tu computadora</a>
+                            </li> */

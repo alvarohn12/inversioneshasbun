@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo_hasbun.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ec72aeb094.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11.1.9/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/detalles.css">
+    <title>Detalles del Producto</title>
+</head>
+<body>
+<div id="header-container"></div>
+<div class="product-details-container">
+    <div class="image-viewer">
+        <div class="main-image-container">
+            <img id="main-image" src="" alt="Imagen principal">
+        </div>
+        <div class="thumbnails">
+            <!-- Thumbnails se cargarán aquí dinámicamente -->
+        </div>
+    </div>
+
+    <div class="product-info">
+        <!-- Aquí se mostrarán los detalles del producto -->
+        <h1 id="product-name"></h1>
+        <p id="product-description"></p>
+        <p><strong>Precio:</strong> <span id="product-price"></span></p>
+        <p id="product-price-new" style="display: none;"><strong>Precio Nuevo:</strong> <span></span></p>
+        <p><span id="product-rating"></span></p>
+        <button id="buy-now">Comprar ahora</button>
+        <button id="add-to-cart">Agregar al carrito</button>
+        <ul id="caracteristicas-list"></ul>
+    </div>
+</div>
+
+<div class="slider-modal" id="slider-modal">
+    <button class="slider-close" id="slider-close">X</button>
+    <div class="swiper swipers">
+        <div class="swiper-wrapper" id="swiper-wrapper">
+            <!-- Slides se cargarán aquí dinámicamente -->
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<div id="footer-container"></div>
+    
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/detalles.js"></script> 
+    <script src="js/heyfo.js"></script>
+</body>
+</html>

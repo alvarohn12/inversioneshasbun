@@ -1,0 +1,97 @@
+.redes-guia{
+    background-color: rgb(255, 147, 147);
+}
+.redes-design{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+    
+}
+.redes-img{
+    height: 300px;
+}
+.title-postition{
+    display: flex;
+    width: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.37) 0%, rgb(255, 255, 255) 100%);
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.redes-title{
+    font-family: Arial Narrow;
+    text-align: center;
+    justify-content: center;
+    
+}
+/*------------left---------------------*/
+.column-one-left{
+    font-family: Arial Narrow;
+    font-size: large;
+    display: flex;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,0.6396103896103896) 100%);
+    border-radius: 0px 250px 250px 0px;
+    width: 60%;
+    flex-direction: column;
+    padding: 30px 80px 30px 80px ;
+    color: white;
+    justify-content: center;
+}
+.column-two-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+/*------------rigth---------------------*/
+.column-one-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+    padding: 5px;
+}
+.column-two-right{
+    font-family: Arial Narrow;
+    font-size: large;
+    display: flex;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,255,255,0.6396103896103896) 0%, rgba(255,0,0,1) 100%);
+    border-radius: 250px 0px 0px 250px;
+    width: 60%;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+    text-align: end;
+    padding: 30px 80px 30px 80px ;
+    justify-content: center;
+}
+
+
+.redes-subtitle{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+    
+    .column-one-left{
+        font-size: 14px;
+        padding: 5px 25px 5px 25px ;
+    }
+    .column-two-right{
+        font-size: 14px;
+        padding: 5px 25px 5px 25px ;
+    }
+    .redes-subtitle{
+        font-size: 30px;
+    }
+    .redes-img{
+        height: 100px;
+    }
+  }

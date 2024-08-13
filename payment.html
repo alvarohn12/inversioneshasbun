@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pago</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f9fc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .payment-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .payment-container:hover {
+            transform: translateY(-5px);
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+
+        #total-amount {
+            font-weight: bold;
+            font-size: 24px;
+            color: #e74c3c;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: left;
+        }
+
+        label {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:focus {
+            border-color: #3498db;
+            outline: none;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 500;
+            transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+            width: 100%;
+            max-width: 200px;
+            margin-top: 20px;
+            align-self: center;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            background-color: #1e6a94;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 500px) {
+            .payment-container {
+                padding: 20px;
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            #total-amount {
+                font-size: 22px;
+            }
+
+            input[type="text"] {
+                font-size: 14px;
+                padding: 10px;
+            }
+
+            button {
+                font-size: 16px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Formulario de Pago</h1>
+        <p id="total-amount">Total a pagar: S/0.00</p> <!-- Mostrar el total aquí -->
+        <form id="payment-form">
+            <label for="card-name">Nombre en la tarjeta:</label>
+            <input type="text" id="card-name" name="card-name" required>
+    
+            <label for="card-number">Número de tarjeta:</label>
+            <input type="text" id="card-number" name="card-number" required>
+    
+            <label for="expiry-date">Fecha de vencimiento:</label>
+            <input type="text" id="expiry-date" name="expiry-date" required placeholder="MM/AA">
+    
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+    
+            <button type="submit">Pagar</button>
+        </form>
+    </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const price = localStorage.getItem('productPrice');
+                if (price) {
+                    const totalAmountElement = document.getElementById('total-amount');
+                    totalAmountElement.textContent = `Total a pagar: $${parseFloat(price).toFixed(2)}`;
+                }
+            });
+        </script> 
+</body>
+</html>
