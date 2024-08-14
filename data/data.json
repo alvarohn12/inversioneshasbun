@@ -3,11 +3,11 @@
         "id": 1,
         "name": "Office Laptop",
         "images": [
-            "../img/laptop1.avif",
-            "../img/laptop2.avif",
-            "../img/laptop1.avif"
+            "img/laptop1.avif",
+            "img/laptop2.avif",
+            "img/laptop1.avif"
         ],
-        "image": "../img/laptop1.avif",
+        "image": "img/laptop1.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -28,11 +28,11 @@
         "id": 2,
         "name": "Gaming Laptop",
         "images": [
-            "../img/laptop1.avif",
-            "../img/laptop2.avif",
-            "../img/laptop1.avif"
+            "img/laptop1.avif",
+            "img/laptop2.avif",
+            "img/laptop1.avif"
         ],
-        "image": "../img/laptop1.avif",
+        "image": "img/laptop1.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -53,11 +53,11 @@
         "id": 2,
         "name": "Gaming Laptop",
         "images": [
-            "../img/laptop1.avif",
-            "../img/laptop2.avif",
-            "../img/laptop1.avif"
+            "img/laptop1.avif",
+            "img/laptop2.avif",
+            "img/laptop1.avif"
         ],
-        "image": "../img/laptop1.avif",
+        "image": "img/laptop1.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -78,11 +78,11 @@
         "id": 3,
         "name": "Desktop Computer",
         "images": [
-            "../img/laptop1.avif",
-            "../img/laptop2.avif",
-            "../img/laptop1.avif"
+            "img/laptop1.avif",
+            "img/laptop2.avif",
+            "img/laptop1.avif"
         ],
-        "image": "../img/laptop1.avif",
+        "image": "img/laptop1.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -102,7 +102,7 @@
     {
         "id": 4,
         "name": "Gaming Desktop",
-        "image": "../img/laptop2.avif",
+        "image": "img/laptop2.avif",
         "description": "High performance gaming desktop.",
         "price": 1499,
         "rating": 4.9,
@@ -112,7 +112,7 @@
     {
         "id": 5,
         "name": "Computer Desktop",
-        "image": "../img/laptop1.avif",
+        "image": "img/laptop1.avif",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -122,7 +122,7 @@
     {
         "id": 6,
         "name": "Computer Desktop",
-        "image": "../img/laptop1.avif",
+        "image": "img/laptop1.avif",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -132,7 +132,7 @@
     {
         "id": 2,
         "name": "laptop portatil",
-        "image": "../img/laptop2.avif",
+        "image": "img/laptop2.avif",
         "description": "Brief description of the product. This is an example text that can span multiple lines.",
         "price": 1199,
         "rating": 4.8,
@@ -142,7 +142,7 @@
     {
         "id": 7,
         "name": "Computer Desktop",
-        "image": "../img/computadora.png",
+        "image": "img/computadora.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -151,7 +151,7 @@
     {
         "id": 8,
         "name": "Computer Desktop",
-        "image": "../img/computadora.png",
+        "image": "img/computadora.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -160,7 +160,7 @@
     {
         "id": 9,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -169,7 +169,7 @@
     {
         "id": 10,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -178,7 +178,7 @@
     {
         "id": 11,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -187,7 +187,7 @@
     {
         "id": 12,
         "name": "Computer Desktop",
-        "image": "../img/computadora.png",
+        "image": "img/computadora.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -196,7 +196,7 @@
     {
         "id": 13,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -205,7 +205,7 @@
     {
         "id": 14,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -214,7 +214,7 @@
     {
         "id": 15,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -223,7 +223,7 @@
     {
         "id": 16,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -232,7 +232,7 @@
     {
         "id": 17,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -241,7 +241,7 @@
     {
         "id": 18,
         "name": "Computer Desktop",
-        "image": "../img/computadora.png",
+        "image": "img/computadora.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -250,7 +250,7 @@
     {
         "id": 19,
         "name": "Computer Desktop",
-        "image": "../img/computadora.png",
+        "image": "img/computadora.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -259,7 +259,7 @@
     {
         "id": 20,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -268,7 +268,7 @@
     {
         "id": 21,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -277,7 +277,7 @@
     {
         "id": 22,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -286,7 +286,7 @@
     {
         "id": 23,
         "name": "Computer Desktop",
-        "image": "../img/computadora.png",
+        "image": "img/computadora.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -295,7 +295,7 @@
     {
         "id": 24,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -304,7 +304,7 @@
     {
         "id": 25,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -313,7 +313,7 @@
     {
         "id": 26,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -322,7 +322,7 @@
     {
         "id": 27,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -331,7 +331,7 @@
     {
         "id": 28,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -340,7 +340,7 @@
     {
         "id": 29,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -349,7 +349,7 @@
     {
         "id": 30,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -358,7 +358,7 @@
     {
         "id": 31,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -367,7 +367,7 @@
     {
         "id": 32,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -376,7 +376,7 @@
     {
         "id": 32,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -385,7 +385,7 @@
     {
         "id": 32,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -394,7 +394,7 @@
     {
         "id": 32,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -403,7 +403,7 @@
     {
         "id": 32,
         "name": "Computer Desktop",
-        "image": "../img/computadora2.png",
+        "image": "img/computadora2.png",
         "description": "Brief description of the desktop computer.",
         "price": 799,
         "rating": 4.5,
@@ -413,11 +413,11 @@
         "id": 33,
         "name": "impresora",
         "images": [
-            "../img/impresora.avif",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/impresora.avif",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/impresora.avif",
+        "image": "img/impresora.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -438,11 +438,11 @@
         "id": 34,
         "name": "impresora",
         "images": [
-            "../img/impresora.avif",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/impresora.avif",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/impresora.avif",
+        "image": "img/impresora.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -463,11 +463,11 @@
         "id": 35,
         "name": "impresora",
         "images": [
-            "../img/impresora.avif",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/impresora.avif",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/impresora.avif",
+        "image": "img/impresora.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -488,11 +488,11 @@
         "id": 36,
         "name": "impresora",
         "images": [
-            "../img/impresora.avif",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/impresora.avif",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/impresora.avif",
+        "image": "img/impresora.avif",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -513,11 +513,11 @@
         "id": 37,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -538,11 +538,11 @@
         "id": 38,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -563,11 +563,11 @@
         "id": 39,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -588,11 +588,11 @@
         "id": 40,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -613,11 +613,11 @@
         "id": 41,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -638,11 +638,11 @@
         "id": 42,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -663,11 +663,11 @@
         "id": 43,
         "name": "camaras",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/camara.jpg",
+        "image": "img/camara.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -688,11 +688,11 @@
         "id": 44,
         "name": "grabadoras dvrs",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/grabadora.jpg",
+        "image": "img/grabadora.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -713,11 +713,11 @@
         "id": 45,
         "name": "grabadoras dvrs",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/grabadora.jpg",
+        "image": "img/grabadora.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -738,11 +738,11 @@
         "id": 46,
         "name": "grabadoras dvrs",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/grabadora.jpg",
+        "image": "img/grabadora.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -763,11 +763,11 @@
         "id": 47,
         "name": "grabadoras dvrs",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/grabadora.jpg",
+        "image": "img/grabadora.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -788,11 +788,11 @@
         "id": 48,
         "name": "grabadoras dvrs",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/grabadora.jpg",
+        "image": "img/grabadora.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -813,11 +813,11 @@
         "id": 49,
         "name": "grabadoras dvrs",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/grabadora.jpg",
+        "image": "img/grabadora.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -838,11 +838,11 @@
         "id": 50,
         "name": "discos de almacenamiento",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/discos.jpg",
+        "image": "img/discos.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -863,11 +863,11 @@
         "id": 51,
         "name": "discos de almacenamiento",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/discos.jpg",
+        "image": "img/discos.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -888,11 +888,11 @@
         "id": 52,
         "name": "discos de almacenamiento",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/discos.jpg",
+        "image": "img/discos.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -913,11 +913,11 @@
         "id": 53,
         "name": "discos de almacenamiento",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/discos.jpg",
+        "image": "img/discos.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -938,11 +938,11 @@
         "id": 54,
         "name": "discos de almacenamiento",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/discos.jpg",
+        "image": "img/discos.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
@@ -963,11 +963,11 @@
         "id": 55,
         "name": "discos de almacenamiento",
         "images": [
-            "../img/camara.jpg",
-            "../img/impresora2.png",
-            "../img/impresora.avif"
+            "img/camara.jpg",
+            "img/impresora2.png",
+            "img/impresora.avif"
         ],
-        "image": "../img/discos.jpg",
+        "image": "img/discos.jpg",
         "description": "Descripción breve del producto. Este es un ejemplo de texto que puede ocuparvarias líneas.",
         "price": 999,
         "priceNew": 899,
