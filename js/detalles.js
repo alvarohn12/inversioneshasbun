@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const caracteristicasList = document.getElementById('caracteristicas-list');
     const buyNowButton = document.getElementById('buy-now');
 
-    fetch('../data/data.json')
+    fetch('data/data.json')
         .then(response => response.json())
         .then(products => {
             const product = products.find(p => p.id == productId);

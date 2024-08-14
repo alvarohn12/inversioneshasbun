@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function agregarAlCarrito(productoId) {
-        fetch('../data/data.json')
+        fetch('data/data.json')
             .then(response => response.json())
             .then(productos => {
                 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];

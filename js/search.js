@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const consulta = this.value.toLowerCase();
             
             // Cargar productos desde data.json
-            fetch('../data/data.json')
+            fetch('data/data.json')
                 .then(response => response.json())
                 .then(products => {
                     const resultados = products.filter(product =>

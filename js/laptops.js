@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = `detalles-producto.html?id=${productId}`;
     }
     function loadProducts() {
-        fetch('../data/data.json')
+        fetch('data/data.json')
             .then(response => response.json())
             .then(data => {
                 products = data.filter(product => product.category === category);
