@@ -503,6 +503,10 @@ button.search-button:focus {
 .swiper:hover .swiper-button-prev {
     opacity: 1;
 }
+.swiper-clientes .swiper-button-next, .swiper-clientes .swiper-button-prev{
+        color: var(--colorprimario);
+        background-color: rgba(199, 126, 126, 0.562);
+}
 
 .swiper .swiper-pagination {
     --swiper-pagination-color: white;
@@ -511,6 +515,11 @@ button.search-button:focus {
     --swiper-pagination-bullet-inactive-opacity: 0.80;
 }
 
+/* mis compras */
+.cart-container{
+    display: flex;
+    flex-wrap: wrap;
+}
 /* seccion de llamada ala accion */
 .seccion__clientes {
     margin: 50px 0;
@@ -540,6 +549,16 @@ button.search-button:focus {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+.contenedor__web{
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--colorsecundario);
 }
 
 .llamado__img {
@@ -607,7 +626,7 @@ button.search-button:focus {
     margin: 30px 0 0 20px;
     font-family: var(--fuentelato);
     font-weight: 900;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     line-height: 30px;
     font-style: italic;
     padding: 5px 10px;
@@ -683,6 +702,10 @@ button.search-button:focus {
     color: var(--colorsecundario);
     transition: background-color 0.3s ease;
 }
+.nb{
+    display: inline-flex;
+    margin-top: 10px;
+}
 
 .nesecidad__btn {
     display: flex;
@@ -737,14 +760,15 @@ button.search-button:focus {
     text-align: center;
     font-size: 18px;
     height: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
     border-radius: 15px;
     text-align: start;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
 }
 
 .card__producto:hover {
     transform: scale(1.01);
+    box-shadow: 0px 4px 4px rgba(196, 196, 196, 0.25);
 
     border-radius: 15px;
 }
@@ -766,7 +790,7 @@ button.search-button:focus {
     position: absolute;
     top: 0;
     padding: 2px 20px;
-    color: var(--colorsecundario);
+    color: var(--colorteciario);
 }
 
 .infoplus {
@@ -835,6 +859,10 @@ button.search-button:focus {
 
 /* clienetes */
 .clientes__title {
+    font-family: var(--fuentelato);
+    font-weight: 900;
+    font-style: italic;
+    color: var(--colorteciario);
     font-size: 2.3rem;
     text-align: center;
 }
@@ -894,9 +922,9 @@ button.search-button:focus {
 }
 
 .marca__contenido img {
-    width: 200px;
-    height: 60px;
-    margin: 0 40px;
+    width: 150px;
+    height: 50px;
+    margin: 0 30px;
 }
 
 @keyframes scroll {
@@ -1103,7 +1131,7 @@ footer {
 /* iconos de whasapp */
 /* Estilos para el botón flotante de WhatsApp */
 .whatsapp-btn {
-    z-index: 11;
+    z-index: 1111;
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -1317,9 +1345,8 @@ footer {
 .nav {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    background-color: #f0f0f0;
-    padding: 10px;
+    background-color: var(--colorsecundario);
+    padding: 0 10px;
     border-radius: 5px;
     transition: opacity 0.3s ease;
     overflow: hidden;
@@ -1328,15 +1355,14 @@ footer {
 .filters {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 /* acordeon */
 .desglosamiento{
     cursor: pointer;
-    background-color: #f1f1f1;
-    padding: 10px;
+    background-color: var(--colorsecundario);
+    padding: 3px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
@@ -1346,11 +1372,25 @@ footer {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
-    padding: 0 10px;
+    padding: 0 4px;
 }
 .desglosamiento__contenido.active {
     max-height: auto; /* Cambia esto según el contenido */
     padding: 10px;
+}
+.desglosamiento__contenido label{
+    margin: 5px;
+}
+.desglosamiento__contenido input[type="checkbox"] {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.5);
+    background-color: transparent;
+    border: 2px solid var(--colorfondo);
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    outline: none;
 }
 
 .arrow-icon {
@@ -1800,7 +1840,9 @@ footer {
 .serv{
         background: url('../img/impresora.avif') no-repeat center center/cover;
 }
-
+.vc{
+    background: url('../img/impresora.avif') no-repeat center center/cover;
+}
 .title-servicio::after {
     content: '';
     background: rgba(0, 0, 0, 0.5);
@@ -1979,7 +2021,7 @@ footer {
         font-size: 1.3rem;
     }
 
-    .search-input {
+    input[type=text].search-input {
         width: 150px;
         height: 35px;
     }
@@ -2075,15 +2117,17 @@ footer {
         display: flex;
     }
     .nav {
-        display: none;
-        /* Oculto por defecto en pantallas pequeñas */
-        position: absolute;
-        z-index: 1000;
+        display: none; /* Oculto por defecto */
+        position: fixed; /* Para que ocupe toda la pantalla */
+        top: 0;
+        left: 0;
+        z-index: 9999; /* Asegura que esté por encima de todo */
         width: 100%;
-        background-color: white;
         height: 100%;
+        background-color: white;
         box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
         padding: 20px;
+        overflow-y: auto; 
     }
 
     .nav.visible {
@@ -2142,7 +2186,9 @@ footer {
     }
 
     .card {
-        width: 200px;
+        width: 180px;
+        max-width: 200px;
+        min-width: 150px;
         height: auto;
     }
 
@@ -2163,5 +2209,89 @@ footer {
 @media (max-width: 768px) {
     .l-princi {
         display: flex;
+    }
+}
+/* coneciones */
+/* Estilo para la sección de conectividad de Internet */
+.internet-connectivity {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.internet-connectivity h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.internet-connectivity p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.connectivity-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.option-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.option-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.option-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.contact-callout {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e3f2fd;
+    border: 1px solid #b3e5fc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-callout h3 {
+    font-size: 1.25rem;
+    color: #0277bd;
+    margin-bottom: 10px;
+}
+
+.contact-callout p {
+    font-size: 1rem;
+    color: #0277bd;
+}
+
+.contact-callout a {
+    color: #01579b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-callout a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .option-card {
+        width: 100%;
     }
 }

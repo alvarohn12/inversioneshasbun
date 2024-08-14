@@ -17,14 +17,15 @@
     <div id="header-container">
     </div>
     <section class="banner__container">
-        <h2 class="banner__name"> las mejores laptops</h2>
+        <h2 class="banner__name" style="text-align: center;"> las mejores laptops</h2>
     </section>
     <!-- <button class="nav-toggle" id="navToggle">filtrador de producto</button> -->
     <button id="filter-button" class="filtrador-button"><i class='bx bx-filter'></i>Filtrar</button>
     <main class="l-princi">
         <nav class="nav" id="filter-navigation">
-            <h2>Filtros</h2>
+            <h3>Filtrador de producto</h3>
             <button id="close-filter" class="close-filtrador">Cerrar</button>
+        
             <div class="filters">
                 <h3 class="desglosamiento">Precio <i class="fa-solid fa-chevron-right arrow-icon"></i></h3>
                 <div class="desglosamiento__contenido">
@@ -50,6 +51,109 @@
                     </label>
                 </div>
             </div>
+        
+            <div class="filters">
+                <h3 class="desglosamiento">Marca <i class="fa-solid fa-chevron-right arrow-icon"></i></h3>
+                <div class="desglosamiento__contenido">
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="hp">
+                        HP
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="dell">
+                        Dell
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="asus">
+                        ASUS
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="acer">
+                        Acer
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="lenovo">
+                        Lenovo
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="apple">
+                        apple
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="msi">
+                        msi
+                    </label>
+                </div>
+            </div>
+
+            <div class="filters">
+                <h3 class="desglosamiento">Tamano de Pantalla <i class="fa-solid fa-chevron-right arrow-icon"></i></h3>
+                <div class="desglosamiento__contenido">
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-tamaño="14">
+                        14"
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-tamaño="15">
+                        15"
+                    </label>
+                </div>
+            </div>
+            <div class="filters">
+                <h3 class="desglosamiento">Memoria <i class="fa-solid fa-chevron-right arrow-icon"></i></h3>
+                <div class="desglosamiento__contenido">
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="hp">
+                        HP
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="dell">
+                        Dell
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="asus">
+                        ASUS
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="acer">
+                        Acer
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="lenovo">
+                        Lenovo
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="apple">
+                        apple
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-brand" data-brand="msi">
+                        msi
+                    </label>
+                </div>
+            </div>
+            <div class="filters">
+                <h3 class="desglosamiento">Sistema Operativo <i class="fa-solid fa-chevron-right arrow-icon"></i></h3>
+                <div class="desglosamiento__contenido">
+                    <label>
+                        <input type="checkbox" class="filter-os" data-os="windows">
+                        Windows
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-os" data-os="macos">
+                        MacOS
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-os" data-os="linux">
+                        Linux
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-os" data-os="chromeos">
+                        Chrome OS
+                    </label>
+                </div>
+            </div>
+        
             <button id="apply-filters" disabled>Aplicar Filtros</button>
         </nav>
         <!-- modal de agregacion -->

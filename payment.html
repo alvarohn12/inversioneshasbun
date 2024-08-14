@@ -158,14 +158,19 @@
             <button type="submit">Pagar</button>
         </form>
     </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const price = localStorage.getItem('productPrice');
-                if (price) {
-                    const totalAmountElement = document.getElementById('total-amount');
-                    totalAmountElement.textContent = `Total a pagar: $${parseFloat(price).toFixed(2)}`;
-                }
-            });
-        </script> 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const totalAmountElement = document.getElementById('total-amount');
+    
+    const totalPrice = localStorage.getItem('totalPrice');
+    
+    if (totalPrice) {
+        totalAmountElement.innerHTML = `Total a pagar: S/${totalPrice}`;
+    } else {
+        totalAmountElement.innerHTML = 'Total a pagar: S/0.00';
+    }
+});
+
+</script>
 </body>
 </html>

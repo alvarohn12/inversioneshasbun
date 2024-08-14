@@ -1,97 +1,450 @@
-.redes-guia{
-    background-color: rgb(255, 147, 147);
+/* Estilos generales para la sección de instalación de redes */
+.redes-guia {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.redes-design{
-    display: flex;
-    justify-content: space-between;
-    height: 350px;
-    width: 100%;
-    
-}
-.redes-img{
-    height: 300px;
-}
-.title-postition{
-    display: flex;
-    width: 100%;
-    background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255, 255, 255, 0.37) 0%, rgb(255, 255, 255) 100%);
-    height: 60px;
-    align-items: center;
-    justify-content: center;
-}
-.redes-title{
-    font-family: Arial Narrow;
+
+.title-postition {
     text-align: center;
-    justify-content: center;
-    
-}
-/*------------left---------------------*/
-.column-one-left{
-    font-family: Arial Narrow;
-    font-size: large;
-    display: flex;
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,0.6396103896103896) 100%);
-    border-radius: 0px 250px 250px 0px;
-    width: 60%;
-    flex-direction: column;
-    padding: 30px 80px 30px 80px ;
-    color: white;
-    justify-content: center;
-}
-.column-two-left{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-}
-/*------------rigth---------------------*/
-.column-one-right{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 40%;
-    padding: 5px;
-}
-.column-two-right{
-    font-family: Arial Narrow;
-    font-size: large;
-    display: flex;
-    background: rgb(255,0,0);
-    background: linear-gradient(90deg, rgba(255,255,255,0.6396103896103896) 0%, rgba(255,0,0,1) 100%);
-    border-radius: 250px 0px 0px 250px;
-    width: 60%;
-    flex-direction: column;
-    padding: 30px;
-    color: white;
-    text-align: end;
-    padding: 30px 80px 30px 80px ;
-    justify-content: center;
+    margin-bottom: 30px;
 }
 
-
-.redes-subtitle{
-    margin: 0;
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+.redes-title {
+    font-size: 2.5rem;
+    color: #5a3f3f;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 200px) and (max-width: 800px) {
-    
-    .column-one-left{
-        font-size: 14px;
-        padding: 5px 25px 5px 25px ;
+.redes-design {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.column-one-left, .column-one-right, .column-two-left, .column-two-right {
+    width: 48%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.column-one-left, .column-two-left {
+    order: 1;
+}
+
+.column-one-right, .column-two-right {
+    order: 2;
+}
+
+.redes-img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.redes-subtitle {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #5a3f3f;
+    padding-bottom: 5px;
+}
+
+.redes-design:nth-child(odd) .column-one-left {
+    order: 2;
+}
+
+.redes-design:nth-child(odd) .column-two-left {
+    order: 1;
+}
+
+.redes-design:nth-child(even) .column-one-right {
+    order: 1;
+}
+
+.redes-design:nth-child(even) .column-two-right {
+    order: 2;
+}
+
+/* Estilo para los párrafos */
+.redes-design p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .column-one-left, .column-one-right, .column-two-left, .column-two-right {
+        width: 100%;
+        margin-bottom: 20px;
     }
-    .column-two-right{
-        font-size: 14px;
-        padding: 5px 25px 5px 25px ;
+
+    .redes-title {
+        font-size: 2rem;
+        padding: 15px;
     }
-    .redes-subtitle{
-        font-size: 30px;
+
+    .redes-subtitle {
+        font-size: 1.5rem;
     }
-    .redes-img{
-        height: 100px;
+}
+.configuracion-redes {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.titulo-posicion {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-configuracion {
+    font-size: 2.5em;
+    color: #5a3f3f;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.diseno-configuracion {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.columna-izquierda,
+.columna-derecha {
+    flex: 1;
+    padding: 10px;
+}
+
+.columna-izquierda {
+    order: 1;
+}
+
+.columna-derecha {
+    order: 2;
+}
+
+.imagen-configuracion {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-top: 10px;
+}
+
+.subtitulo-configuracion {
+    font-size: 1.8em;
+    color: #5a3f3f;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 1em;
+}
+/* intalcion de camaras */
+/* Estilos Generales */
+.instalacion-camaras {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.titulo-posicion {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-instalacion {
+    font-size: 2.5em;
+    color: #5a3f3f;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.diseno-instalacion {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.columna-izquierda,
+.columna-derecha {
+    flex: 1;
+    padding: 10px;
+}
+
+.imagen-instalacion {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-top: 10px;
+}
+
+.subtitulo-instalacion {
+    font-size: 1.8em;
+    color: #5a3f3f;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .titulo-instalacion {
+        font-size: 2em;
     }
-  }
+
+    .subtitulo-instalacion {
+        font-size: 1.5em;
+    }
+
+    .diseno-instalacion {
+        flex-direction: column;
+    }
+
+    .columna-izquierda,
+    .columna-derecha {
+        order: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-instalacion {
+        font-size: 1.5em;
+    }
+
+    .subtitulo-instalacion {
+        font-size: 1.2em;
+    }
+
+    .p {
+        font-size: 0.9em;
+    }
+
+    .diseno-instalacion {
+        padding: 10px;
+    }
+
+    .columna-izquierda,
+    .columna-derecha {
+        padding: 5px;
+    }
+
+    .imagen-instalacion {
+        margin-top: 5px;
+    }
+}
+/* Estilos Generales */
+.soporte-camaras {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.titulo-soporte {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-soporte h1 {
+    font-size: 2.5em;
+    color: #5a3f3f;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.problemas-comunes,
+.mantenimiento-preventivo,
+.asistencia-tecnica,
+.preguntas-frecuentes {
+    margin-bottom: 20px;
+}
+
+.problema,
+.mantenimiento,
+.asistencia-tecnica,
+.preguntas-frecuentes {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.problema h3,
+.mantenimiento h3,
+.asistencia-tecnica h3,
+.preguntas-frecuentes h3 {
+    font-size: 1.8em;
+    color: #5a3f3f;
+}
+
+.problema p,
+.mantenimiento p,
+.asistencia-tecnica p,
+.preguntas-frecuentes p {
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .titulo-soporte h1 {
+        font-size: 2em;
+    }
+
+    .problema h3,
+    .mantenimiento h3,
+    .asistencia-tecnica h3,
+    .preguntas-frecuentes h3 {
+        font-size: 1.5em;
+    }
+
+    .problema p,
+    .mantenimiento p,
+    .asistencia-tecnica p,
+    .preguntas-frecuentes p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-soporte h1 {
+        font-size: 1.5em;
+    }
+
+    .problema h3,
+    .mantenimiento h3,
+    .asistencia-tecnica h3,
+    .preguntas-frecuentes h3 {
+        font-size: 1.2em;
+    }
+
+    .problema p,
+    .mantenimiento p,
+    .asistencia-tecnica p,
+    .preguntas-frecuentes p {
+        font-size: 0.8em;
+    }
+}
+/* Estilos Generales */
+.tips-manuales {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.titulo-tips-manuales {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-tips-manuales h1 {
+    font-size: 2.5em;
+    color: #5a3f3f;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tips,
+.manuales {
+    margin-bottom: 20px;
+}
+
+.tips h2,
+.manuales h2 {
+    font-size: 2em;
+    color: #5a3f3f;
+    margin-bottom: 10px;
+}
+
+.tips ul,
+.manuales ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tips li,
+.manuales li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.tips strong,
+.manuales a {
+    color: #333;
+}
+
+.manuales a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+}
+
+.manuales a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .titulo-tips-manuales h1 {
+        font-size: 2em;
+    }
+
+    .tips h2,
+    .manuales h2 {
+        font-size: 1.8em;
+    }
+
+    .tips li,
+    .manuales li {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo-tips-manuales h1 {
+        font-size: 1.5em;
+    }
+
+    .tips h2,
+    .manuales h2 {
+        font-size: 1.5em;
+    }
+
+    .tips li,
+    .manuales li {
+        font-size: 0.8em;
+    }
+}

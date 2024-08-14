@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (cart.length === 0) {
             cartContainer.innerHTML = '<p>No tienes productos en tu carrito.</p>';
-            totalPriceElement.innerHTML = 'Total: $0.00';
+            totalPriceElement.innerHTML = 'Total: S/ 0.00';
         } else {
             cart.forEach(product => {
                 let productElement = document.createElement('div');
@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Precio: S/ ${product.price}</p>
                 <div class="inferior">
                     <p>Cantidad: 
-                        <button class="update-quantity" data-id="${product.id}" data-delta="-1"><i class="fa-solid fa-plus"></i></button>
+                        <button class="update-quantity" data-id="${product.id}" data-delta="-1"><i class="fa-solid fa-minus"></i></button>
                         ${product.quantity}
-                        <button class="update-quantity" data-id="${product.id}" data-delta="1"><i class="fa-solid fa-minus"></i></button>
+                        <button class="update-quantity" data-id="${product.id}" data-delta="1"><i class="fa-solid fa-plus"></i></button>
                     </p>
                     <button class="remove-from-cart" data-id="${product.id}"><i class="fa-solid fa-trash"></i></button>
                 </div>`;
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 totalPrice += product.price * product.quantity; // Sumar el total
             });
 
-            totalPriceElement.innerHTML = `Total: $${totalPrice.toFixed(2)}`; // Mostrar el total
+            totalPriceElement.innerHTML = `Total: S/ ${totalPrice.toFixed(2)}`; // Mostrar el total
         }
 
         document.querySelectorAll('.update-quantity').forEach(button => {
@@ -102,9 +102,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.getElementById('checkout').addEventListener('click', function() {
-        const totalPrice = totalPriceElement.innerText.replace('Total: $', '');
-        localStorage.setItem('totalPrice', totalPrice); // Guardar el total en el almacenamiento local
-        window.location.href = 'payment.html'; // Redirige al formulario de pago
+        const totalPriceText = totalPriceElement.innerText.replace('Total: S/ ', '').trim();
+        const totalPrice = parseFloat(totalPriceText);
+        if (!isNaN(totalPrice)) {
+            localStorage.setItem('totalPrice', totalPrice.toFixed(2)); // Guardar el total en el almacenamiento local
+            window.location.href = 'payment.html'; // Redirige al formulario de pago
+        } else {
+            alert("Error al obtener el precio total. Por favor, inténtalo de nuevo.");
+        }
     });
 
     renderCart();

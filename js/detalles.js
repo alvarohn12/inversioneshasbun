@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const sliderCloseButton = document.getElementById('slider-close');
     const caracteristicasList = document.getElementById('caracteristicas-list');
     const buyNowButton = document.getElementById('buy-now');
+    const addToCartButton = document.getElementById('add-to-cart'); // Botón "Agregar al carrito"
 
     fetch('data/data.json')
         .then(response => response.json())
@@ -93,6 +94,24 @@ document.addEventListener('DOMContentLoaded', function() {
                     const priceText = priceElement.textContent.replace('$', ''); // Obtener precio sin el signo de dólar
                     localStorage.setItem('productPrice', priceText); // Almacenar el precio en localStorage
                     window.location.href = 'payment.html'; // Redirigir a la página de pago
+                });
+
+                // Manejador de clic para el botón "Agregar al carrito"
+                addToCartButton.addEventListener('click', () => {
+                    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+                    const cartProduct = cart.find(p => p.id == product.id);
+                    if (cartProduct) {
+                        cartProduct.quantity++;
+                    } else {
+                        cart.push({ ...product, quantity: 1 });
+                    }
+                    localStorage.setItem('cart', JSON.stringify(cart));
+                    Swal.fire({
+                        title: '¡Producto añadido!',
+                        text: `${product.name} ha sido añadido al carrito.`,
+                        icon: 'success',
+                        confirmButtonText: 'Aceptar'
+                    });
                 });
 
             } else {
