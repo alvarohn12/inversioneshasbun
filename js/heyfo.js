@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
                 <div class="search-container">
-                    <form action="data/data.json" class="nav-search" method="get" role="search" style="display: inherit;">
+                    <form action="" class="nav-search" method="get" role="search" style="display: inherit;">
                         <input type="text" class="search-input" id="buscador" name="buscador" placeholder="Busque su producto deseado">
                         <button type="submit" class="search-button">
                             <div class=""><i class="fa-solid fa-magnifying-glass"></i></div>
